@@ -1,0 +1,7 @@
+requests
+functions-framework==3.3.0
+SQLAlchemy
+flask-sqlalchemy
+Flask-SQLAlchemy
+mysqlclient
+PyMySQL
