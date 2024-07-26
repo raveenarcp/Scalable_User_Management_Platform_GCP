@@ -44,6 +44,5 @@ Once the server is running client can make API calls.
 
 Integration Testing
 To run the integration tests, run the following command from the repository
-
 pytest
 This will search for all the testcases in the files and run them. At present, we have 2 testcases, one is creating a user and second is updating a user. In the first testcase, we create the user using the POST API call and check whether the status code returned is 201. After that, we make a GET API call to fetch the user details. Then we check if the user details and other fields are present. Similarly, we make a PUT API call to update the details of a user and then check the status code is 204. After that we make a GET API call to check if the details are updated correctly or not.
